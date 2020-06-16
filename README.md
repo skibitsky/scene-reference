@@ -1,4 +1,4 @@
-# SceneReference
+# SceneReference [![openupm](https://img.shields.io/npm/v/com.skibitsky.scene-reference?label=openupm&registry_uri=https://package.openupm.com)](https://openupm.com/packages/com.skibitsky.scene-reference/)
 
 > Custom property that allows to reference scene asset directly from the Editor
 
