@@ -1,0 +1,12 @@
+{
+  "name": "com.skibitsky.scene-reference",
+  "version": "1.0.0",
+  "displayName": "Scene Reference",
+  "description": "Custom property that allows to reference scene asset directly from the Editor",
+  "unity": "",
+  "author": {
+    "name": "Gleb Skibitsky",
+    "email": "gleb@skibitsky.com",
+    "url": "https://skibitsky.com"
+  }
+}
