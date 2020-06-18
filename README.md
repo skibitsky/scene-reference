@@ -2,7 +2,7 @@
 
 > Custom property that allows to reference scene asset directly from the Editor
 
-<img src=".github/Images/screenshot.png" width="580">
+<img src="https://github.com/skibitsky/SceneReference/raw/master/.github/Images/screenshot.png" width="580">
 
 ## Usage
 
