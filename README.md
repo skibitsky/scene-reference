@@ -34,7 +34,7 @@ Open *Packages/manifest.json* with your favorite text editor. Add the following 
 
     {
         "dependencies": {
-            "com.skibitsky.scene-reference": "https://github.com/skibitsky/SceneReference.git"
+            "com.skibitsky.scene-reference": "https://github.com/skibitsky/scene-reference.git"
         }
     }
 
