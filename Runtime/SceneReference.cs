@@ -19,15 +19,6 @@ namespace Skibitsky.Unity
         }
 
         /// <summary>
-        /// Build index.Returns -1 if the scene is missing in the Unity build settings
-        /// </summary>
-        public int BuildIndex
-        {
-            get => buildIndex;
-            private set => buildIndex = value;
-        }
-
-        /// <summary>
         /// Full path to the .unity asset
         /// </summary>
         public string AssetPath
@@ -60,16 +51,15 @@ namespace Skibitsky.Unity
             if (sceneAsset == null)
             {
                 AssetPath = "";
-                BuildIndex = -1;
                 SceneName = "";
                 return;
             }
             
             assetPath = AssetDatabase.GetAssetPath(sceneAsset);
             SceneName = Path.GetFileNameWithoutExtension(assetPath);
-            BuildIndex = SceneUtility.GetBuildIndexByScenePath(assetPath);
+            buildIndex = SceneUtility.GetBuildIndexByScenePath(assetPath);
 
-            if (BuildIndex == -1)
+            if (buildIndex == -1)
                 Debug.LogWarning($"The scene <b>{SceneName}</b> is missing in the Unity build settings");
 #endif
         }
