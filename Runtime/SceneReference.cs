@@ -45,7 +45,7 @@ namespace Skibitsky.Unity
 
         public void OnAfterDeserialize() { }
 
-        private void Validate()
+        public void Validate()
         {
 #if UNITY_EDITOR
             if (sceneAsset == null)
